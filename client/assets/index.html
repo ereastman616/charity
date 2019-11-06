@@ -7,7 +7,7 @@
   <title>Momentum</title>
 </head>
 <body>
-  <script> 
+  <!-- <script> 
     window.fbAsyncInit = function() {
       FB.init({
         appId      : '796716227415002',
@@ -20,7 +20,8 @@
     //   var fbInitEvent = new Event('FBObjectReady');
     //   document.dispatchEvent(fbInitEvent);
         FB.login(function(response) {
-            console.log('authResponse is', response)
+          fetch('')  
+          console.log('authResponse is', response)
             if (response.authResponse) {
                 console.log('Welcome!  Fetching your information.... ');
                 FB.api('/me', function(response) {
@@ -49,7 +50,7 @@
                   fjs.parentNode.insertBefore(js, fjs);
                   
                 }(document, 'script', 'facebook-jssdk'));
-  </script>
+  </script> -->
   <div id="root"></div>
   <script type="text/javascript" src="./../build/bundle.js"></script>
 </body>
