@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import LoginComponent from '../components/LoginComponent.jsx';
 /* ADD your template code anywhere but please do not delete '' */
 
 const Login = ({/* INSERT PROPS HERE */ }) => {
@@ -7,6 +8,7 @@ const Login = ({/* INSERT PROPS HERE */ }) => {
 
     <React.Fragment>
       <p> i'm inside the login component </p>
+      {/* <LoginComponent /> */}
     </React.Fragment>
 
   )

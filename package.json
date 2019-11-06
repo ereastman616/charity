@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/server.js",
     "build": "cross-env NODE_ENV=production webpack",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open && nodemon server/server.js"
+    "dev": "cross-env NODE_ENV=development HTTPS=true webpack-dev-server --open && nodemon server/server.js"
   },
   "nodemonConfig": {
     "ignore": [
@@ -20,6 +20,7 @@
     "express": "^4.17.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-facebook": "^8.0.4",
     "webpack": "^4.40.2"
   },
   "devDependencies": {
